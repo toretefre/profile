@@ -7,14 +7,7 @@ export const Cv = () => {
       <h1>CV</h1>
       <h2>Tore Stensaker Tefre</h2>
       <table>
-        <thead>
-          <tr>
-            <th>Periode</th>
-            <th>Organisasjon</th>
-            <th>Aktivitet</th>
-            <th>Sted</th>
-          </tr>
-        </thead>
+        <thead />
         <tbody>
           {cvItems.map(item => (
             <tr>
