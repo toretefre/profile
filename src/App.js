@@ -6,12 +6,14 @@ const CV = lazy(() => import('./containers/Cv'));
 
 export const App = () => {
   return (
-    <Suspense fallback={<h1>Laster ;)</h1>}>
-      <Router>
-        <LandingPage path="/" />
-        <CV path="/cv" />
-      </Router>
-    </Suspense>
+    <main>
+      <Suspense fallback={<h1>Laster ;)</h1>}>
+        <Router>
+          <LandingPage path="/" />
+          <CV path="/cv" />
+        </Router>
+      </Suspense>
+    </main>
   );
 };
 
