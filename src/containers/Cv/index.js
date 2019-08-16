@@ -6,7 +6,6 @@ export const Cv = () => {
   return (
     <article>
       <h1>CV</h1>
-      <h2>Tore Stensaker Tefre</h2>
       <ul>
         {cvItems.map(cvItem => (
           <CvItem
