@@ -1,4 +1,5 @@
 import React from 'react';
+import CvItem from '../../components/CvItem';
 import cvItems from '../../data/cvItems';
 
 export const Cv = () => {
@@ -7,15 +8,12 @@ export const Cv = () => {
       <h1>CV</h1>
       <h2>Tore Stensaker Tefre</h2>
       <table>
-        <thead />
         <tbody>
-          {cvItems.map(item => (
-            <tr>
-              <td>{item.title}</td>
-              <td>{item.employer}</td>
-              <td>{item.period}</td>
-              <td>{item.location}</td>
-            </tr>
+          {cvItems.map(cvItem => (
+            <CvItem
+              key={cvItem.employer + cvItem.period + cvItem.title}
+              cvItem={cvItem}
+            />
           ))}
         </tbody>
       </table>
