@@ -5,7 +5,6 @@ import cvItems from '../../data/cvItems';
 export const Cv = () => {
   return (
     <article>
-      <h1>CV</h1>
       <ul>
         {cvItems.map(cvItem => (
           <CvItem

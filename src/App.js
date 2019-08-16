@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Router } from '@reach/router';
+import './reset.css';
 import './App.css';
 import Header from './components/Header';
 import LeftAside from './components/LeftAside';
