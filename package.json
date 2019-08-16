@@ -29,6 +29,8 @@
     ]
   },
   "devDependencies": {
+    "@emotion/core": "^10.0.16",
+    "@emotion/styled": "^10.0.15",
     "@reach/router": "^1.2.1"
   }
 }
