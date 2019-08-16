@@ -61,10 +61,23 @@ a {
   color: blue;
 }
 
+li {
+  margin: 1rem 0;
+}
+
+img {
+  margin: 1rem;
+  max-width: calc(100% - 2rem);
+}
+
 .cvitem {
   list-style-type: none;
   padding: 1rem;
   border: 1px solid gray;
   border-radius: 1rem;
   margin: 1rem 0;
+}
+
+.centertext {
+  text-align: center;
 }

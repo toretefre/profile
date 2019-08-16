@@ -7,6 +7,8 @@ export const LeftAside = () => {
       <ul>
         <li>
           <Link to="/">Hjem</Link>
+        </li>
+        <li>
           <Link to="/cv">CV</Link>
         </li>
       </ul>

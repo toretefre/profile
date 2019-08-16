@@ -5,8 +5,7 @@ export const Footer = () => {
     <footer>
       <h5>
         Utviklet med React, koden finner du på{' '}
-        <a href="https://github.com/toretefre/profile">GitHub</a>. Oppdateres av{' '}
-        <a href="https://now.sh">now.sh</a>
+        <a href="https://github.com/toretefre/profile">GitHub</a>
       </h5>
     </footer>
   );
