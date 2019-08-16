@@ -23,9 +23,16 @@ header {
 }
 
 aside {
-  background-color: black;
+  background-color: #0d0d0d;
   grid-area: left;
   padding: 1rem;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 article {
@@ -49,11 +56,8 @@ h4 {
   font-size: 1.25rem;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .cvitem {
+  list-style-type: none;
   padding: 1rem;
   border: 1px solid gray;
   border-radius: 1rem;
