@@ -2,12 +2,12 @@ import React from 'react';
 
 export const CvItem = ({ cvItem }) => {
   return (
-    <tr>
-      <td>{cvItem.title}</td>
-      <td>{cvItem.employer}</td>
-      <td>{cvItem.period}</td>
-      <td>{cvItem.location}</td>
-    </tr>
+    <li>
+      <p>{cvItem.title}</p>
+      <p>{cvItem.employer}</p>
+      <p>{cvItem.period}</p>
+      <p>{cvItem.location}</p>
+    </li>
   );
 };
 

@@ -7,16 +7,14 @@ export const Cv = () => {
     <article>
       <h1>CV</h1>
       <h2>Tore Stensaker Tefre</h2>
-      <table>
-        <tbody>
-          {cvItems.map(cvItem => (
-            <CvItem
-              key={cvItem.employer + cvItem.period + cvItem.title}
-              cvItem={cvItem}
-            />
-          ))}
-        </tbody>
-      </table>
+      <ul>
+        {cvItems.map(cvItem => (
+          <CvItem
+            key={cvItem.employer + cvItem.period + cvItem.title}
+            cvItem={cvItem}
+          />
+        ))}
+      </ul>
     </article>
   );
 };
