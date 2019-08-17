@@ -70,6 +70,9 @@ img {
 }
 
 .cvitem {
+  display: grid;
+  grid-template-areas: 'summary details';
+  grid-template-columns: 'auto 1fr';
   list-style-type: none;
   padding: 1rem;
   border: 1px solid gray;
@@ -91,6 +94,10 @@ img {
 .navlist > li > a {
   display: block;
   padding: 1rem;
+}
+
+.references {
+  margin-top: 5rem;
 }
 
 @media screen and (max-width: 719px) {
