@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export const LandingPage = () => {
+  useEffect(() => (document.title = 'Tore Stensaker Tefre'), []);
+
   return (
     <article>
       <p className="centertext">
