@@ -47,14 +47,17 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
+  margin: 1rem 0;
 }
 
 h3 {
   font-size: 1.5rem;
+  margin: 1rem 0;
 }
 
 h4 {
   font-size: 1.25rem;
+  margin: 1rem 0;
 }
 
 a {
@@ -84,4 +87,15 @@ img {
 }
 
 @media screen and (max-width: 719px) {
+}
+
+@media print {
+  main {
+    background-color: white;
+    color: black;
+  }
+
+  nav {
+    display: none;
+  }
 }
