@@ -5,7 +5,7 @@ import links from './../../data/links';
 export const Nav = () => {
   return (
     <nav>
-      <ul>
+      <ul className="navlist">
         {links
           .filter(item => !item.url.includes('http'))
           .map(item => (
@@ -17,7 +17,7 @@ export const Nav = () => {
           .filter(item => item.url.includes('http'))
           .map(item => (
             <li>
-              <a href={item.url}>{item.title}</a>
+              <a href={item.url}>{item.title} - ekstern lenke</a>
             </li>
           ))}
       </ul>
