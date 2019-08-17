@@ -97,7 +97,7 @@ img {
 }
 
 @media print {
-  main {
+  * {
     background-color: white;
     color: black;
   }
