@@ -8,7 +8,7 @@ export const CvItem = ({ cvItem }) => {
       <h4>{employer}</h4>
       <h4>{period}</h4>
       <h4>{location}</h4>
-      <p>{description}</p>
+      {description}
     </li>
   );
 };
