@@ -101,6 +101,9 @@ img {
 }
 
 @media screen and (max-width: 719px) {
+  .cvitem {
+    display: block;
+  }
 }
 
 @media print {
