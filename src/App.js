@@ -3,7 +3,7 @@ import { Router } from '@reach/router';
 import './reset.css';
 import './App.css';
 import Header from './components/Header';
-import LeftAside from './components/LeftAside';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 const LandingPage = lazy(() => import('./containers/LandingPage'));
 const CV = lazy(() => import('./containers/Cv'));
@@ -13,7 +13,7 @@ export const App = () => {
     <main>
       <Suspense fallback={<p>Laster...</p>}>
         <Header />
-        <LeftAside />
+        <Nav />
         <Router>
           <LandingPage path="/" />
           <CV path="/cv" />

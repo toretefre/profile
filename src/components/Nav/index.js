@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from '@reach/router';
 
-export const LeftAside = () => {
+export const Nav = () => {
   return (
-    <aside>
+    <nav>
       <ul>
         <li>
           <Link to="/">Hjem</Link>
@@ -12,8 +12,8 @@ export const LeftAside = () => {
           <Link to="/cv">CV</Link>
         </li>
       </ul>
-    </aside>
+    </nav>
   );
 };
 
-export default LeftAside;
+export default Nav;

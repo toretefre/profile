@@ -8,11 +8,12 @@ main {
   display: grid;
   min-height: 100vh;
   grid-template-areas:
-    'header header'
-    'left content'
-    'footer footer';
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 20rem 1fr;
+    'header'
+    'nav'
+    'content'
+    'footer';
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 1fr;
 }
 
 header {
@@ -22,9 +23,9 @@ header {
   text-align: center;
 }
 
-aside {
+nav {
+  grid-area: nav;
   background-color: #0d0d0d;
-  grid-area: left;
   padding: 1rem;
 }
 
@@ -83,14 +84,4 @@ img {
 }
 
 @media screen and (max-width: 719px) {
-  main {
-    min-height: 100vh;
-    grid-template-areas:
-      'header'
-      'left'
-      'content'
-      'footer';
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 1fr;
-  }
 }
