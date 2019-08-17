@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { details } from 'react';
 
 export const cvItems = [
   {
@@ -7,10 +7,10 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'August 2019 - Juni 2021',
     description: (
-      <Fragment>
+      <details>
         <p>Interaksjonsdesign, spill- og læringsteknologi</p>
         <p>Tverrfaglig prosjektarbeid</p>
-      </Fragment>
+      </details>
     )
   },
   {
@@ -19,11 +19,11 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'August 2016 - Juni 2019',
     description: (
-      <Fragment>
+      <details>
         <p>Systemutvikling, webutvikling, og datavitenskap</p>
         <p>Prosjektarbeid med smidig arbeidsmetodikk</p>
         <p>Webutvikling med toppkarakter</p>
-      </Fragment>
+      </details>
     )
   },
   {
@@ -32,11 +32,11 @@ export const cvItems = [
     location: 'Oslo',
     period: 'Sommeren 2019',
     description: (
-      <Fragment>
+      <details>
         <p>Frontendutvikler</p>
         <p>Jobbet med Arena</p>
         <p>Teamet var fire personer</p>
-      </Fragment>
+      </details>
     )
   },
   {
@@ -45,11 +45,11 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'Oktober 2016 - d.d.',
     description: (
-      <Fragment>
+      <details>
         <p>Frontendutvikler</p>
         <p>Jobbet med Arena</p>
         <p>Teamet var fire personer</p>
-      </Fragment>
+      </details>
     )
   },
   {
@@ -58,11 +58,11 @@ export const cvItems = [
     location: 'Shenzhen, Kina',
     period: 'Juli 2018',
     description: (
-      <Fragment>
+      <details>
         <p>Frontendutvikler</p>
         <p>Jobbet med Arena</p>
         <p>Teamet var fire personer</p>
-      </Fragment>
+      </details>
     )
   }
 ];

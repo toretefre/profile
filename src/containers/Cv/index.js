@@ -15,6 +15,8 @@ export const Cv = () => {
           />
         ))}
       </ul>
+      <h3 className="centertext">Refereranser?</h3>
+      <h4 className="centertext">Send en e-post til jobb@tefre.it</h4>
     </article>
   );
 };
