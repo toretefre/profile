@@ -40,7 +40,7 @@ export const cvItems = [
     placement: 'right',
     organization: 'Huawei Technologies',
     location: 'Shenzhen, Guangdong, Kina',
-    period: 'juli 2018',
+    period: 'Juli 2018',
     description: (
       <details>
         <p>Kursing i bruksområder for IoT, AI, og cloud-løsninger</p>
