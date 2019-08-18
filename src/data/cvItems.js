@@ -3,7 +3,8 @@ import React from 'react';
 export const cvItems = [
   {
     title: 'Informatikk - master',
-    school: 'NTNU Gløshaugen',
+    placement: 'left',
+    organization: 'NTNU Gløshaugen',
     location: 'Trondheim',
     period: 'August 2019 - Juni 2021',
     description: (
@@ -14,21 +15,9 @@ export const cvItems = [
     )
   },
   {
-    title: 'Informatikk - bachelor',
-    school: 'NTNU Gløshaugen',
-    location: 'Trondheim',
-    period: 'August 2016 - Juni 2019',
-    description: (
-      <details>
-        <p>Systemutvikling, webutvikling, og datavitenskap</p>
-        <p>Prosjektarbeid med smidig arbeidsmetodikk</p>
-        <p>Webutvikling med toppkarakter</p>
-      </details>
-    )
-  },
-  {
     title: 'Frontendutvikler',
-    employer: 'Oslo Market Solutions / Oslo Børs',
+    placement: 'right',
+    organization: 'Oslo Market Solutions / Oslo Børs',
     location: 'Oslo',
     period: 'Sommeren 2019',
     description: (
@@ -40,14 +29,16 @@ export const cvItems = [
   },
   {
     title: 'Orakel',
-    employer: 'NTNU IT',
+    placement: 'right',
+    organization: 'NTNU IT',
     location: 'Trondheim',
     period: 'Oktober 2016 - d.d.',
     description: <details />
   },
   {
     title: 'Sommerstudent',
-    employer: 'Huawei Technologies',
+    placement: 'right',
+    organization: 'Huawei Technologies',
     location: 'Shenzhen, Kina',
     period: 'Juli 2018',
     description: (
@@ -62,6 +53,7 @@ export const cvItems = [
   },
   {
     title: 'Arrangør og DJ',
+    placement: 'right',
     organization: 'Studentersamfundet',
     location: 'Trondheim',
     period: 'Januar 2017 - d.d.',
@@ -74,6 +66,7 @@ export const cvItems = [
   },
   {
     title: 'Ekskursjonskomiteen',
+    placement: 'left',
     organization: 'Online, linjeforeningen for informatikk',
     location: 'Trondheim',
     period: 'September 2018 - Juni 2019',
@@ -81,6 +74,20 @@ export const cvItems = [
       <details>
         <p>Medarrangør av ekskursjon for 63 deltagere</p>
         <p>Arrangerte konferansen Tech Talks 2019</p>
+      </details>
+    )
+  },
+  {
+    title: 'Informatikk - bachelor',
+    placement: 'left',
+    organization: 'NTNU Gløshaugen',
+    location: 'Trondheim',
+    period: 'August 2016 - Juni 2019',
+    description: (
+      <details>
+        <p>Systemutvikling, webutvikling, og datavitenskap</p>
+        <p>Prosjektarbeid med smidig arbeidsmetodikk</p>
+        <p>Webutvikling med toppkarakter</p>
       </details>
     )
   }
