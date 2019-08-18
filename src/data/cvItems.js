@@ -90,45 +90,6 @@ export const cvItems = [
         <p>Webutvikling med toppkarakter</p>
       </details>
     )
-  },
-  {
-    title: 'Butikkselger',
-    placement: 'right',
-    organization: 'Europris',
-    location: 'Førde, Sogn og Fjordane',
-    period: 'Mars 2014 - Juli 2016',
-    description: (
-      <details>
-        <p>
-          Deltidsansatt butikkselger i Europris ved siden av videregående skole.{' '}
-        </p>
-        <p>
-          Mine arbeidsoppgaver inkluderte kassearbeid og varepåfylling, samt
-          forberedende arbeid til sesonger og planlegging av
-          mersalgsaktiviteter.
-        </p>
-      </details>
-    )
-  },
-  {
-    title: 'Studiespesialisering',
-    placement: 'left',
-    organization: 'Hafstad VGS',
-    location: 'Førde, Sogn og Fjordane',
-    period: 'August 2013 - Juni 2016',
-    description: (
-      <details>
-        <h5>Valgfag</h5>
-        <ul>
-          <li>Informasjonsteknologi 1</li>
-          <li>Informasjonsteknologi 2</li>
-          <li>Matematikk R1</li>
-          <li>Matematikk R2</li>
-          <li>Økonomistyring</li>
-          <li>Breddeidrett 2</li>
-        </ul>
-      </details>
-    )
   }
 ];
 
