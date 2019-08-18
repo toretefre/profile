@@ -36,7 +36,7 @@ export const cvItems = [
     description: <details />
   },
   {
-    title: 'Sommerstudent - Shenzhen',
+    title: 'Sommerstudent - Kina',
     placement: 'right',
     organization: 'Huawei Technologies',
     location: 'Shenzhen, Guangdong, Kina',
