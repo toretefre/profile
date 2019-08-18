@@ -18,7 +18,7 @@ export const CvItem = ({ cvItem }) => {
       }
     >
       <div className="content">
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <h4>{organization}</h4>
         <h5>{period}</h5>
         <h5 className="location">{location}</h5>

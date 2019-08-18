@@ -95,6 +95,10 @@ img {
   margin: 2rem 0;
 }
 
+.margintop {
+  margin-top: 1rem;
+}
+
 #landingimg {
   object-fit: cover;
   object-position: 0 20%;

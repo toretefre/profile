@@ -27,6 +27,20 @@ export const Cv = ({ location }) => {
             />
           ))}
         </section>
+        <h5 className="centertext margintop">
+          Detaljer finner du på{' '}
+          <a href="https://tefre.dev" target="_blank" rel="noopener noreferrer">
+            tefre.dev
+          </a>
+          , eventuelt på{' '}
+          <a
+            href="https://www.linkedin.com/in/tore/?locale=no_NO"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/tore
+          </a>
+        </h5>
       </article>
     </Fragment>
   );
