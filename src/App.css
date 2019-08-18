@@ -45,17 +45,14 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
-  margin: 1rem 0;
 }
 
 h3 {
   font-size: 1.5rem;
-  margin: 1rem 0;
 }
 
 h4 {
   font-size: 1.25rem;
-  margin: 1rem 0;
 }
 
 a {
@@ -75,7 +72,7 @@ img {
   padding: 1rem;
   border: 1px solid gray;
   border-radius: 1rem;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .centertext {

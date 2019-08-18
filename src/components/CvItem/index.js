@@ -1,17 +1,35 @@
 import React from 'react';
 
 export const CvItem = ({ cvItem }) => {
-  const { title, employer, period, location, description } = cvItem;
+  const {
+    title,
+    school,
+    employer,
+    organization,
+    period,
+    location,
+    description
+  } = cvItem;
   return (
-    <li className="cvitem">
-      <div>
+    <div
+      className={
+        (school && 'container left') ||
+        (organization && 'container left') ||
+        (employer && 'container right')
+      }
+    >
+      <div className="content">
         <h3>{title}</h3>
-        <h4>{employer}</h4>
-        <h4>{period}</h4>
-        <h4>{location}</h4>
+        <h4>
+          {school && school}
+          {employer && employer}
+          {organization && organization}
+        </h4>
+        <h5>{period}</h5>
+        <h5>{location}</h5>
+        {description}
       </div>
-      {description}
-    </li>
+    </div>
   );
 };
 

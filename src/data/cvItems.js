@@ -3,7 +3,7 @@ import React from 'react';
 export const cvItems = [
   {
     title: 'Informatikk - master',
-    employer: 'NTNU Gløshaugen',
+    school: 'NTNU Gløshaugen',
     location: 'Trondheim',
     period: 'August 2019 - Juni 2021',
     description: (
@@ -15,7 +15,7 @@ export const cvItems = [
   },
   {
     title: 'Informatikk - bachelor',
-    employer: 'NTNU Gløshaugen',
+    school: 'NTNU Gløshaugen',
     location: 'Trondheim',
     period: 'August 2016 - Juni 2019',
     description: (
@@ -33,9 +33,8 @@ export const cvItems = [
     period: 'Sommeren 2019',
     description: (
       <details>
-        <p>Frontendutvikler</p>
-        <p>Jobbet med Arena</p>
-        <p>Teamet var fire personer</p>
+        <p>React Hooks applikasjon bygget fra scratch på 10 uker.</p>
+        <p>Tilgjengelig på arena.obvps.no</p>
       </details>
     )
   },
@@ -44,13 +43,7 @@ export const cvItems = [
     employer: 'NTNU IT',
     location: 'Trondheim',
     period: 'Oktober 2016 - d.d.',
-    description: (
-      <details>
-        <p>Frontendutvikler</p>
-        <p>Jobbet med Arena</p>
-        <p>Teamet var fire personer</p>
-      </details>
-    )
+    description: <details />
   },
   {
     title: 'Sommerstudent',
@@ -59,9 +52,35 @@ export const cvItems = [
     period: 'Juli 2018',
     description: (
       <details>
-        <p>Frontendutvikler</p>
-        <p>Jobbet med Arena</p>
-        <p>Teamet var fire personer</p>
+        <p>Kursing i bruksområder for IoT, AI, og cloud-løsninger</p>
+        <p>
+          Innføring i kinesisk kultur og språk ved Beijing Language and Culture
+          University
+        </p>
+      </details>
+    )
+  },
+  {
+    title: 'Arrangør og DJ',
+    organization: 'Studentersamfundet',
+    location: 'Trondheim',
+    period: 'Januar 2017 - d.d.',
+    description: (
+      <details>
+        <p>Opplæring av nye DJer</p>
+        <p>Arrangering av konserter og events ved behov</p>
+      </details>
+    )
+  },
+  {
+    title: 'Ekskursjonskomiteen',
+    organization: 'Online, linjeforeningen for informatikk',
+    location: 'Trondheim',
+    period: 'September 2018 - Juni 2019',
+    description: (
+      <details>
+        <p>Medarrangør av ekskursjon for 63 deltagere</p>
+        <p>Arrangerte konferansen Tech Talks 2019</p>
       </details>
     )
   }
