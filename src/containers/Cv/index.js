@@ -15,8 +15,8 @@ export const Cv = () => {
           />
         ))}
       </ul>
-      <section className="references">
-        <h3 className="centertext">Referenser eller en prat?</h3>
+      <section className="wannatalk">
+        <h3 className="centertext">Ta en prat?</h3>
         <h4 className="centertext">
           Send en e-post til <a href="mailto:jobb@tefre.it">jobb@tefre.it</a>
         </h4>

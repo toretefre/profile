@@ -94,8 +94,8 @@ img {
   padding: 1rem;
 }
 
-.references {
-  margin-top: 5rem;
+.wannatalk {
+  margin: 4rem 0 2rem 0;
 }
 
 #landingimg {
@@ -117,6 +117,10 @@ img {
   }
 
   nav {
+    display: none;
+  }
+
+  .cvitem > details {
     display: none;
   }
 }

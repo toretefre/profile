@@ -1,4 +1,4 @@
-import React, { details } from 'react';
+import React from 'react';
 
 export const cvItems = [
   {
