@@ -1,9 +1,10 @@
 import React from 'react';
 
-export const Header = () => {
+export const Header = ({ location }) => {
+  const path = location.pathname;
   return (
     <header>
-      <h1>Tore Stensaker Tefre</h1>
+      <h1>Tore Stensaker Tefre {path.includes('cv') && ' - CV'}</h1>
     </header>
   );
 };

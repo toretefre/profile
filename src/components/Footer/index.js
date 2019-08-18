@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer className="last-page">
       <h5>
         Utviklet med React, koden finner du på{' '}
         <a href="https://github.com/toretefre/profile">GitHub</a>
