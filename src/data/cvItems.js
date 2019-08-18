@@ -32,7 +32,7 @@ export const cvItems = [
     placement: 'left',
     organization: 'NTNU IT',
     location: 'Trondheim',
-    period: 'oktober 2016 - d.d.',
+    period: 'Oktober 2016 - d.d.',
     description: <details />
   },
   {
