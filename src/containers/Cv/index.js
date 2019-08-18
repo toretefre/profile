@@ -6,7 +6,7 @@ import cvItems from '../../data/cvItems';
 import './cv.css';
 
 export const Cv = ({ location }) => {
-  document.title = 'CV - Tore Stensaker Tefre';
+  document.title = 'Tore Stensaker Tefre - CV';
 
   return (
     <Fragment>
