@@ -37,7 +37,6 @@ footer {
 
 article {
   grid-area: content;
-  padding: 1rem;
 }
 
 h1 {
@@ -65,8 +64,7 @@ a {
 }
 
 img {
-  margin: 1rem;
-  max-width: 90%;
+  width: 100%;
 }
 
 .cvitem {
@@ -98,6 +96,12 @@ img {
 
 .references {
   margin-top: 5rem;
+}
+
+#landingimg {
+  object-fit: cover;
+  object-position: 0 20%;
+  height: 15rem;
 }
 
 @media screen and (max-width: 719px) {

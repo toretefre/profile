@@ -4,16 +4,15 @@ export const LandingPage = () => {
   useEffect(() => (document.title = 'Tore Stensaker Tefre'), []);
 
   return (
-    <article>
-      <p className="centertext">
-        Informatikkstudent, utvikler, DJ, og bordtennis-amatør!
-      </p>
+    <article className="landingpage">
       <img
+        id="landingimg"
         src="https://www.adressa.no/incoming/article15292846.ece/gjlmps/ALTERNATES/w980-default/doc6wna0n8vti8l6jiyedt.jpg"
         alt="Tore med PC"
       />
       <p className="centertext">
-        En god utvikler har alltid med seg PC{' '}
+        Informatikkstudent, utvikler, DJ, og bordtennis-amatør. Har alltid med
+        PC{' '}
         <span role="img" alt="blunkefjes" aria-label="blunkefjes">
           😉
         </span>
