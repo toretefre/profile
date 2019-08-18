@@ -9,14 +9,14 @@ export const Nav = () => {
         {links
           .filter(item => !item.url.includes('http'))
           .map(item => (
-            <li>
+            <li key={item.url}>
               <Link to={item.url}>{item.title}</Link>
             </li>
           ))}
         {links
           .filter(item => item.url.includes('http'))
           .map(item => (
-            <li>
+            <li key={item.url}>
               <a href={item.url} rel="noopener noreferrer">
                 {item.title} - ekstern lenke
               </a>
