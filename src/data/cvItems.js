@@ -15,7 +15,7 @@ export const cvItems = [
     )
   },
   {
-    title: 'Frontendutvikler',
+    title: 'Frontendutvikler - React',
     placement: 'right',
     organization: 'OMS / Oslo Børs',
     location: 'Oslo',
@@ -28,7 +28,7 @@ export const cvItems = [
     )
   },
   {
-    title: 'Orakel',
+    title: 'Orakeltjenesten',
     placement: 'left',
     organization: 'NTNU IT',
     location: 'Trondheim',
@@ -36,7 +36,7 @@ export const cvItems = [
     description: <details />
   },
   {
-    title: 'Sommerstudent',
+    title: 'Sommerstudent - Shenzhen',
     placement: 'right',
     organization: 'Huawei Technologies',
     location: 'Shenzhen, Guangdong, Kina',
@@ -52,7 +52,7 @@ export const cvItems = [
     )
   },
   {
-    title: 'Arrangør og DJ',
+    title: 'DJ',
     placement: 'left',
     organization: 'Studentersamfundet',
     location: 'Trondheim',
