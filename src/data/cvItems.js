@@ -2,7 +2,7 @@ import React from 'react';
 
 export const cvItems = [
   {
-    title: 'Informatikk - master',
+    title: 'Informatikk - master Interaksjonsdesign',
     placement: 'left',
     organization: 'NTNU Gløshaugen',
     location: 'Trondheim',
