@@ -17,7 +17,7 @@ export const Nav = () => {
           .filter(item => item.url.includes('http'))
           .map(item => (
             <li key={item.url}>
-              <a href={item.url} rel="noopener noreferrer">
+              <a href={item.url} target="_blank" rel="noopener noreferrer">
                 {item.title} - ekstern lenke
               </a>
             </li>

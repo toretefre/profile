@@ -115,8 +115,4 @@ img {
   nav {
     display: none;
   }
-
-  .cvitem > details {
-    display: none;
-  }
 }

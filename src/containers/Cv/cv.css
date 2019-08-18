@@ -134,7 +134,7 @@ body {
 }
 
 @media print {
-  .timeline::after {
-    background-color: black;
+  .content {
+    width: 100%;
   }
 }
