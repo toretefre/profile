@@ -8,6 +8,12 @@ export const Cv = () => {
 
   return (
     <article>
+      <section className="wannatalk">
+        <h3 className="centertext">Ta en prat?</h3>
+        <h4 className="centertext">
+          Send en e-post til <a href="mailto:jobb@tefre.it">jobb@tefre.it</a>
+        </h4>
+      </section>
       <section className="timeline">
         {cvItems.map(cvItem => (
           <CvItem
@@ -15,12 +21,6 @@ export const Cv = () => {
             cvItem={cvItem}
           />
         ))}
-      </section>
-      <section className="wannatalk">
-        <h3 className="centertext">Ta en prat?</h3>
-        <h4 className="centertext">
-          Send en e-post til <a href="mailto:jobb@tefre.it">jobb@tefre.it</a>
-        </h4>
       </section>
     </article>
   );
