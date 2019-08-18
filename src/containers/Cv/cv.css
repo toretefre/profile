@@ -145,4 +145,8 @@ body {
     width: 2px;
     border-right: 3px solid black;
   }
+
+  .wannatalk {
+    margin: 0 0 1rem 0;
+  }
 }

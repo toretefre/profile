@@ -17,7 +17,7 @@ export const cvItems = [
   {
     title: 'Frontendutvikler',
     placement: 'right',
-    organization: 'Oslo Market Solutions / Oslo Børs',
+    organization: 'OMS / Oslo Børs',
     location: 'Oslo',
     period: 'Sommeren 2019',
     description: (
@@ -29,7 +29,7 @@ export const cvItems = [
   },
   {
     title: 'Orakel',
-    placement: 'right',
+    placement: 'left',
     organization: 'NTNU IT',
     location: 'Trondheim',
     period: 'Oktober 2016 - d.d.',
@@ -39,7 +39,7 @@ export const cvItems = [
     title: 'Sommerstudent',
     placement: 'right',
     organization: 'Huawei Technologies',
-    location: 'Shenzhen, Kina',
+    location: 'Shenzhen, Guangdong, Kina',
     period: 'Juli 2018',
     description: (
       <details>
@@ -53,7 +53,7 @@ export const cvItems = [
   },
   {
     title: 'Arrangør og DJ',
-    placement: 'right',
+    placement: 'left',
     organization: 'Studentersamfundet',
     location: 'Trondheim',
     period: 'Januar 2017 - d.d.',
@@ -67,7 +67,7 @@ export const cvItems = [
   {
     title: 'Ekskursjonskomiteen',
     placement: 'left',
-    organization: 'Online, linjeforeningen for informatikk',
+    organization: 'Linjeforeningen Online',
     location: 'Trondheim',
     period: 'September 2018 - Juni 2019',
     description: (
@@ -88,6 +88,45 @@ export const cvItems = [
         <p>Systemutvikling, webutvikling, og datavitenskap</p>
         <p>Prosjektarbeid med smidig arbeidsmetodikk</p>
         <p>Webutvikling med toppkarakter</p>
+      </details>
+    )
+  },
+  {
+    title: 'Butikkselger',
+    placement: 'right',
+    organization: 'Europris',
+    location: 'Førde, Sogn og Fjordane',
+    period: 'Mars 2014 - Juli 2016',
+    description: (
+      <details>
+        <p>
+          Deltidsansatt butikkselger i Europris ved siden av videregående skole.{' '}
+        </p>
+        <p>
+          Mine arbeidsoppgaver inkluderte kassearbeid og varepåfylling, samt
+          forberedende arbeid til sesonger og planlegging av
+          mersalgsaktiviteter.
+        </p>
+      </details>
+    )
+  },
+  {
+    title: 'Studiespesialisering',
+    placement: 'left',
+    organization: 'Hafstad VGS',
+    location: 'Førde, Sogn og Fjordane',
+    period: 'August 2013 - Juni 2016',
+    description: (
+      <details>
+        <h5>Valgfag</h5>
+        <ul>
+          <li>Informasjonsteknologi 1</li>
+          <li>Informasjonsteknologi 2</li>
+          <li>Matematikk R1</li>
+          <li>Matematikk R2</li>
+          <li>Økonomistyring</li>
+          <li>Breddeidrett 2</li>
+        </ul>
       </details>
     )
   }
