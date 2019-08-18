@@ -6,7 +6,7 @@ export const cvItems = [
     placement: 'left',
     organization: 'NTNU Gløshaugen',
     location: 'Trondheim',
-    period: 'August 2019 - Juni 2021',
+    period: 'August 2019 - juni 2021',
     description: (
       <details>
         <p>Interaksjonsdesign, spill- og læringsteknologi</p>
@@ -19,7 +19,7 @@ export const cvItems = [
     placement: 'right',
     organization: 'OMS / Oslo Børs',
     location: 'Oslo',
-    period: 'Sommeren 2019',
+    period: 'Juni 2019 - august 2019',
     description: (
       <details>
         <p>React Hooks applikasjon bygget fra scratch på 10 uker.</p>
@@ -32,7 +32,7 @@ export const cvItems = [
     placement: 'left',
     organization: 'NTNU IT',
     location: 'Trondheim',
-    period: 'Oktober 2016 - d.d.',
+    period: 'oktober 2016 - d.d.',
     description: <details />
   },
   {
@@ -40,7 +40,7 @@ export const cvItems = [
     placement: 'right',
     organization: 'Huawei Technologies',
     location: 'Shenzhen, Guangdong, Kina',
-    period: 'Juli 2018',
+    period: 'juli 2018',
     description: (
       <details>
         <p>Kursing i bruksområder for IoT, AI, og cloud-løsninger</p>
@@ -69,7 +69,7 @@ export const cvItems = [
     placement: 'left',
     organization: 'Linjeforeningen Online',
     location: 'Trondheim',
-    period: 'September 2018 - Juni 2019',
+    period: 'September 2018 - juni 2019',
     description: (
       <details>
         <p>Medarrangør av ekskursjon for 63 deltagere</p>
@@ -82,7 +82,7 @@ export const cvItems = [
     placement: 'left',
     organization: 'NTNU Gløshaugen',
     location: 'Trondheim',
-    period: 'August 2016 - Juni 2019',
+    period: 'August 2016 - juni 2019',
     description: (
       <details>
         <p>Systemutvikling, webutvikling, og datavitenskap</p>

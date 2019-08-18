@@ -13,10 +13,16 @@ export const Cv = ({ location }) => {
       <Header location={location} />
       <Nav location={location} />
       <article>
+        <img
+          src="https://media.licdn.com/dms/image/C4E03AQH5Pr16uq5F2A/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=LHZdJj1fa9gXVBPMAh-DzzR-ZuoFXkJXSjWtcjw22oE"
+          id="profilepic"
+          alt="Profilbilde av Tore Stensaker Tefre"
+        />
         <section className="wannatalk">
           <h3 className="centertext">Ta en prat?</h3>
           <h4 className="centertext">
-            Send en e-post til <a href="mailto:jobb@tefre.it">jobb@tefre.it</a>
+            <a href="mailto:jobb@tefre.it">jobb@tefre.it</a> |{' '}
+            <a href="tel:95 70 45 76">95 70 45 76</a>
           </h4>
         </section>
         <section className="timeline">
@@ -28,7 +34,7 @@ export const Cv = ({ location }) => {
           ))}
         </section>
         <h5 className="centertext margintop">
-          Detaljer finner du på{' '}
+          Detaljer finnes på{' '}
           <a href="https://tefre.dev" target="_blank" rel="noopener noreferrer">
             tefre.dev
           </a>

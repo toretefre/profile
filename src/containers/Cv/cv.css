@@ -93,10 +93,14 @@ body {
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
+  padding: 0 2rem;
   background-color: black;
   position: relative;
   border-radius: 6px;
+}
+
+img {
+  display: none;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -156,5 +160,15 @@ body {
 
   .location {
     display: none;
+  }
+
+  img {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10%;
   }
 }
