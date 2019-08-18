@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 export const LandingPage = () => {
-  useEffect(() => (document.title = 'Tore Stensaker Tefre'), []);
+  document.title = 'Tore Stensaker Tefre';
 
   return (
     <article className="landingpage">

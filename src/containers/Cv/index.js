@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import CvItem from '../../components/CvItem';
 import cvItems from '../../data/cvItems';
 
 export const Cv = () => {
-  useEffect(() => (document.title = 'CV - Tore Stensaker Tefre'), []);
+  document.title = 'CV - Tore Stensaker Tefre';
 
   return (
     <article>
