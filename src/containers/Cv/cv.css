@@ -138,6 +138,39 @@ img {
 }
 
 @media print {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+
   .content {
     width: 100%;
     border: 1px solid black;
@@ -172,9 +205,5 @@ img {
     width: 8rem;
     border-radius: 10%;
     z-index: 1;
-  }
-
-  .container {
-    padding: 2px 40px;
   }
 }

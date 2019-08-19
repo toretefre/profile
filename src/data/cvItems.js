@@ -23,7 +23,6 @@ export const cvItems = [
     description: (
       <details>
         <p>React Hooks applikasjon bygget fra scratch på 10 uker.</p>
-        <p>Tilgjengelig på arena.obvps.no</p>
       </details>
     )
   },
