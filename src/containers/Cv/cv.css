@@ -141,6 +141,7 @@ img {
   .content {
     width: 100%;
     border: 1px solid black;
+    padding: 0 rem;
   }
 
   .timeline::after {
@@ -171,5 +172,9 @@ img {
     width: 8rem;
     border-radius: 10%;
     z-index: 1;
+  }
+
+  .container {
+    padding: 2px 40px;
   }
 }

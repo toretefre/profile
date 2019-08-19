@@ -66,7 +66,7 @@ h5 {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: #5b73ff;
 }
 
 img {
@@ -128,5 +128,9 @@ img {
 
   nav {
     display: none;
+  }
+
+  a {
+    color: blue;
   }
 }
