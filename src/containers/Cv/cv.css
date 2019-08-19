@@ -92,11 +92,15 @@ body {
 }
 
 /* The actual content */
-.content {
+details {
   padding: 0.5rem 2rem;
   background-color: black;
   position: relative;
   border-radius: 6px;
+}
+
+::-webkit-details-marker {
+  display: none;
 }
 
 img {

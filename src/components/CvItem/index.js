@@ -17,13 +17,15 @@ export const CvItem = ({ cvItem }) => {
           : 'container right'
       }
     >
-      <div className="content">
-        <h4>{title}</h4>
-        <h4>{organization}</h4>
-        <h5>{period}</h5>
-        <h5 className="location">{location}</h5>
+      <details>
+        <summary>
+          <h4>{title}</h4>
+          <h4>{organization}</h4>
+          <h5>{period}</h5>
+          <h5 className="location">{location}</h5>
+        </summary>
         {description}
-      </div>
+      </details>
     </div>
   );
 };

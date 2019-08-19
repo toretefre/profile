@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 export const cvItems = [
   {
@@ -8,10 +8,10 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'August 2019 - juni 2021',
     description: (
-      <details>
+      <Fragment>
         <p>Interaksjonsdesign, spill- og læringsteknologi</p>
         <p>Tverrfaglig prosjektarbeid</p>
-      </details>
+      </Fragment>
     )
   },
   {
@@ -21,9 +21,9 @@ export const cvItems = [
     location: 'Oslo',
     period: 'Juni 2019 - august 2019',
     description: (
-      <details>
+      <Fragment>
         <p>React Hooks applikasjon bygget fra scratch på 10 uker.</p>
-      </details>
+      </Fragment>
     )
   },
   {
@@ -32,7 +32,11 @@ export const cvItems = [
     organization: 'NTNU IT',
     location: 'Trondheim',
     period: 'Oktober 2016 - d.d.',
-    description: <details />
+    description: (
+      <Fragment>
+        <p>Brukerstøtte</p>
+      </Fragment>
+    )
   },
   {
     title: 'Sommerstudent - Kina',
@@ -41,13 +45,13 @@ export const cvItems = [
     location: 'Shenzhen, Guangdong, Kina',
     period: 'Juli 2018',
     description: (
-      <details>
+      <Fragment>
         <p>Kursing i bruksområder for IoT, AI, og cloud-løsninger</p>
         <p>
           Innføring i kinesisk kultur og språk ved Beijing Language and Culture
           University
         </p>
-      </details>
+      </Fragment>
     )
   },
   {
@@ -57,10 +61,10 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'Januar 2017 - d.d.',
     description: (
-      <details>
+      <Fragment>
         <p>Opplæring av nye DJer</p>
         <p>Arrangering av konserter og events ved behov</p>
-      </details>
+      </Fragment>
     )
   },
   {
@@ -70,10 +74,10 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'September 2018 - juni 2019',
     description: (
-      <details>
+      <Fragment>
         <p>Medarrangør av ekskursjon for 63 deltagere</p>
         <p>Arrangerte konferansen Tech Talks 2019</p>
-      </details>
+      </Fragment>
     )
   },
   {
@@ -83,11 +87,11 @@ export const cvItems = [
     location: 'Trondheim',
     period: 'August 2016 - juni 2019',
     description: (
-      <details>
+      <Fragment>
         <p>Systemutvikling, webutvikling, og datavitenskap</p>
         <p>Prosjektarbeid med smidig arbeidsmetodikk</p>
         <p>Webutvikling med toppkarakter</p>
-      </details>
+      </Fragment>
     )
   }
 ];
