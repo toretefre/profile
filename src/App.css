@@ -73,6 +73,10 @@ img {
   width: 100%;
 }
 
+details > p {
+  margin: 1rem 0;
+}
+
 .cvitem {
   display: grid;
   grid-template-areas: 'summary details';
