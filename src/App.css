@@ -74,6 +74,7 @@ img {
 }
 
 details > p {
+  line-height: 1.25;
   margin: 1rem 0;
 }
 
