@@ -21,7 +21,7 @@ export const Cv = ({ location }) => {
         <section className="wannatalk">
           <h3 className="centertext">Ta en prat?</h3>
           <h4 className="centertext">
-            <a href="mailto:jobb@tefre.it">jobb@tefre.it</a> //{' '}
+            <a href="mailto:jobb@tefre.it">jobb@tefre.it</a> |{' '}
             <a href="tel:95 70 45 76">95 70 45 76</a>
           </h4>
         </section>

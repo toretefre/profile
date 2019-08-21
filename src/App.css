@@ -109,9 +109,10 @@ img {
 }
 
 #landingimg {
+  max-height: 60vh;
   object-fit: cover;
   object-position: 0 20%;
-  height: 15rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 719px) {
